@@ -12,7 +12,7 @@ const Hero = (props) => (
           Hey there,
         </SectionTitle>
         <SectionText>
-        I'm Héctor Segura. I'm currently a Digital QA Analyst at ADI Global Distribution - nothing goes out to the world without testing. 
+        I'm Héctor Segura. I'm currently a Digital QA Analyst at ADI Global Distribution, pursuing a Master's Degree in AI Applications at ITESM. I'm passionate about technology and aspire to become a Software Architect. 
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
