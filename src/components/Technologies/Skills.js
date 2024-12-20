@@ -1,39 +1,28 @@
-import { DiAndroid, DiTerminal, DiJava, DiHtml5 } from "react-icons/di";
+import { DiAndroid, DiTerminal, DiJava, DiHtml5, DiJsBadge, DiReact, DiPython } from "react-icons/di";
 import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws } from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
 import { TbBrandKotlin } from "react-icons/tb";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>Android Apps, ROMs, & Kernels</>,
+    slug: "Javascript",
+    Component: DiJsBadge,
+    title: "Javascript",
+    Description: () => <>Component development, OOP</>,
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Cross-platform app development</>,
+    slug: "react",
+    Component: DiReact,
+    title: "React",
+    Description: () => <>Development of UI components</>,
   },
   {
-    slug: "kotlin",
-    Component: TbBrandKotlin,
-    title: "Kotlin",
-    Description: () => <>Android apps and Lambda functions</>,
+    slug: "Python",
+    Component: DiPython,
+    title: "Python",
+    Description: () => <>Data science and machine-learning projects</>,
   },
-  {
-    slug: "dart",
-    Component: SiDart,
-    title: "Dart",
-    Description: () => <>Flutter apps only</>,
-  },
-  {
-    slug: "java",
-    Component: DiJava,
-    title: "Java",
-    Description: () => <>Android apps and Lambda functions</>,
-  },
+
 
   {
     slug: "html",
@@ -45,32 +34,27 @@ export const Skills = [
     slug: "css",
     Component: SiCss3,
     title: "CSS",
-    Description: () => <>Styling of my webpages</>,
+    Description: () => <>Styling of webpages</>,
   },
 
   {
     slug: "sql",
     Component: SiMysql,
     title: "MySQL",
-    Description: () => <>Storing client and user data</>,
+    Description: () => <>Queries for data analysis</>,
   },
-  {
-    slug: "aws",
-    Component: SiAmazonaws,
-    title: "AWS Lambda",
-    Description: () => <>Lambda functions for creating APIs</>,
-  },
+
   {
     slug: "terminal",
     Component: DiTerminal,
     title: "Bash",
-    Description: () => <>Ease of life and build scripts</>,
+    Description: () => <>Environment control and manipulation</>,
   },
   {
     slug: "firebase",
     Component: SiFirebase,
     title: "Firebase",
-    Description: () => <>Authentication, database and analytics</>,
+    Description: () => <>Authentication, app testing</>,
   },
   {
     slug: "git",
