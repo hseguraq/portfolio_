@@ -33,7 +33,7 @@ export default class MyDocument extends Document {
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
           <meta name="title" content="Héctor Segura - Digital QA Analyst / AI Specialist" />
-          <meta name="description" content="Héctor Segura is currently seeking a Masters in AI Applications and holds a degree in Industrial & Systems Engineering." />
+          <meta name="description" content="Héctor Segura is currently seeking a Master's in AI Applications and holds a degree in Industrial & Systems Engineering." />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Héctor Segura - Digital Engineer" />
         </Head>
